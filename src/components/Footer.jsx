@@ -1,8 +1,6 @@
-import { Avatar, Box, Stack, Text, VStack } from "@chakra-ui/react";
+import { Box, Stack, Text, VStack } from "@chakra-ui/react";
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-
-const avatarSrc = "https://avatars.githubusercontent.com/u/101207737?v=4";
 
 const Footer = () => {
   return (
@@ -24,11 +22,6 @@ const Footer = () => {
             We are the best crypto trading app in India, we provide our guidance
             at a very cheap price.
           </Text>
-        </VStack>
-
-        <VStack>
-          <Avatar boxSize={"28"} mt={["4", "0"]} src={avatarSrc} />
-          <Text>Our Founder</Text>
         </VStack>
       </Stack>
     </Box>
